@@ -7,9 +7,10 @@ void invert_RGB(Float_t R, Float_t G, Float_t B, Float_t& r_new, Float_t& g_new,
 void create_color(Int_t num, Int_t r, Int_t g, Int_t b);
 void create_color_HLS(Int_t num, Float_t h, Float_t l, Float_t s); 
 void create_color_RGB(Int_t num, Float_t r, Float_t g, Float_t b);
-void draw_colors(Int_t firstcolor = 4000);
+TCanvas* draw_colors(Int_t firstcolor = 4000);
 Float_t RGBHue_to_RYBHue(Float_t Hrgb);
 Float_t RYBHue_to_RGBHue(Float_t Hryb);
+//_____________________________________________________________________________________
 
 /** Returns the number of colors created */
 Int_t set_color_scheme(Float_t angle = 30, Int_t rp = 255 , Int_t gp = 0, Int_t bp = 0 , Int_t startIndex = 4000);
@@ -26,7 +27,7 @@ void color_scheme(){
 }
 //_____________________________________________________________________________________
 
-void draw_colors(Int_t firstcolor)
+TCanvas * draw_colors(Int_t firstcolor)
 {
    // Static function to Display Color Table in a pad.
 
@@ -76,6 +77,7 @@ void draw_colors(Int_t firstcolor)
          text->DrawText(0.5*(xlow+xup), 0.5*(ylow+yup), Form("%d",color));
       }
    }
+   return(c);
 }
 //_____________________________________________________________________________________
 
