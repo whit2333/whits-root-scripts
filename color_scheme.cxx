@@ -82,14 +82,14 @@ TCanvas * draw_colors(Int_t firstcolor)
 //_____________________________________________________________________________________
 
 void create_color(Int_t num, Int_t r, Int_t g, Int_t b){
-   TColor *color = new TColor(num, (float)r/255.0, (float)g/255.0,(float)b/255.0, Form("%d-%d-%d-ish",r,g,b) ,0.9);
+   TColor *color = new TColor(num, (float)r/255.0, (float)g/255.0,(float)b/255.0, Form("%d-%d-%d-ish",r,g,b) );//,1);
 }
 //_____________________________________________________________________________________
 
 void create_color_RGB(Int_t num, Float_t r, Float_t g, Float_t b) {
 //    std::cout << " Creating color " << num << " with ";
 //    std::cout << " R=" << r << ", G=" << g << ", B=" << b << std::endl;
-   TColor *color = new TColor(num, (float)r , (float)g,(float)b, Form("%d-%d-%d-ish",r,g,b) ,0.9);
+   TColor *color = new TColor(num, (float)r , (float)g,(float)b, Form("%d-%d-%d-ish",r,g,b) );//,0.9);
 }
 //_____________________________________________________________________________________
 
