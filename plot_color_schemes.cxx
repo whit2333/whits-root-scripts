@@ -10,11 +10,13 @@
    col=4000;
    c = draw_colors(col);
    c->SaveAs(Form("plots/color_scheme%d.png",col));
+   c->SaveAs(Form("plots/color_scheme%d.pdf",col));
    c->SaveAs(Form("plots/color_scheme%d.svg",col));
 
    col=4500;
    c = draw_colors(col);
    c->SaveAs(Form("plots/color_scheme%d.png",col));
+   c->SaveAs(Form("plots/color_scheme%d.pdf",col));
    c->SaveAs(Form("plots/color_scheme%d.svg",col));
 
 
