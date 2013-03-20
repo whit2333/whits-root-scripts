@@ -12,6 +12,12 @@
    c->SaveAs(Form("plots/color_scheme%d.png",col));
    c->SaveAs(Form("plots/color_scheme%d.svg",col));
 
+   col=4500;
+   c = draw_colors(col);
+   c->SaveAs(Form("plots/color_scheme%d.png",col));
+   c->SaveAs(Form("plots/color_scheme%d.svg",col));
+
+
    //set_color_scheme(30,255,0,0,col=5000);
    col=5000;
    c = draw_colors(col);

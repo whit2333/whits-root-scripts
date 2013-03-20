@@ -1,7 +1,7 @@
 <?xml version="1.0" standalone="no"?>
 <svg width="567" height="339" viewBox="0 0 567 339" xmlns="http://www.w3.org/2000/svg">
 <title>
-plots/color_scheme5000.svg
+plots/color_scheme4500.svg
 </title>
 <desc>
 Creator: ROOT Version 5.34/02
@@ -9,99 +9,99 @@ CreationDate: Wed Mar 20 14:07:15 2013</desc>
 <defs>
 </defs>
 <rect x="0" y="0" width="567" height="339" fill="white"/>
-<rect x="0" y="283" width="142" height="56" fill="#643200"/>
+<rect x="0" y="283" width="142" height="56" fill="#783b04" fill-opacity="0.50" stroke-opacity="0.50"/>
 <text x="71" y="322" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5000
+4500
 </text>
-<rect x="0" y="226" width="142" height="57" fill="#663300"/>
+<rect x="0" y="226" width="142" height="57" fill="#613004" fill-opacity="0.50" stroke-opacity="0.50"/>
 <text x="71" y="265" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5004
+4504
 </text>
-<rect x="0" y="170" width="142" height="56" fill="#cc6600"/>
+<rect x="0" y="170" width="142" height="56" fill="#c36108" fill-opacity="0.50" stroke-opacity="0.50"/>
 <text x="71" y="209" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5008
+4508
 </text>
-<rect x="0" y="113" width="142" height="57" fill="#ff9933"/>
+<rect x="0" y="113" width="142" height="57" fill="#f6943b" fill-opacity="0.50" stroke-opacity="0.50"/>
 <text x="71" y="152" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5012
+4512
 </text>
-<rect x="0" y="57" width="142" height="56" fill="#ffcc99"/>
+<rect x="0" y="57" width="142" height="56" fill="#fac99d" fill-opacity="0.50" stroke-opacity="0.50"/>
 <text x="71" y="96" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5016
+4516
 </text>
 <rect x="0" y="0" width="142" height="57" fill="white"/>
 <text x="71" y="39" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5020
+4520
 </text>
-<rect x="142" y="283" width="141" height="56" fill="#644b00"/>
+<rect x="142" y="283" width="141" height="56" fill="#785d04" fill-opacity="0.50" stroke-opacity="0.50"/>
 <text x="213" y="322" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5001
+4501
 </text>
-<rect x="142" y="226" width="141" height="57" fill="#664d00"/>
+<rect x="142" y="226" width="141" height="57" fill="#614c04" fill-opacity="0.50" stroke-opacity="0.50"/>
 <text x="213" y="265" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5005
+4505
 </text>
-<rect x="142" y="170" width="141" height="56" fill="#cc9a00"/>
+<rect x="142" y="170" width="141" height="56" fill="#c39808" fill-opacity="0.50" stroke-opacity="0.50"/>
 <text x="213" y="209" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5009
+4509
 </text>
-<rect x="142" y="113" width="141" height="57" fill="#ffcd33"/>
+<rect x="142" y="113" width="141" height="57" fill="#f6cb3b" fill-opacity="0.50" stroke-opacity="0.50"/>
 <text x="213" y="152" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5013
+4513
 </text>
-<rect x="142" y="57" width="141" height="56" fill="#ffe699"/>
+<rect x="142" y="57" width="141" height="56" fill="#fae59d" fill-opacity="0.50" stroke-opacity="0.50"/>
 <text x="213" y="96" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5017
+4517
 </text>
 <rect x="142" y="0" width="141" height="57" fill="white"/>
 <text x="213" y="39" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5021
+4521
 </text>
-<rect x="283" y="283" width="142" height="56" fill="#641800"/>
+<rect x="283" y="283" width="142" height="56" fill="#781a04" fill-opacity="0.50" stroke-opacity="0.50"/>
 <text x="354" y="322" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5002
+4502
 </text>
-<rect x="283" y="226" width="142" height="57" fill="#661800"/>
+<rect x="283" y="226" width="142" height="57" fill="#611504" fill-opacity="0.50" stroke-opacity="0.50"/>
 <text x="354" y="265" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5006
+4506
 </text>
-<rect x="283" y="170" width="142" height="56" fill="#cc3100"/>
+<rect x="283" y="170" width="142" height="56" fill="#c32b08" fill-opacity="0.50" stroke-opacity="0.50"/>
 <text x="354" y="209" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5010
+4510
 </text>
-<rect x="283" y="113" width="142" height="57" fill="#ff6433"/>
+<rect x="283" y="113" width="142" height="57" fill="#f65e3b" fill-opacity="0.50" stroke-opacity="0.50"/>
 <text x="354" y="152" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5014
+4514
 </text>
-<rect x="283" y="57" width="142" height="56" fill="#ffb199"/>
+<rect x="283" y="57" width="142" height="56" fill="#faae9d" fill-opacity="0.50" stroke-opacity="0.50"/>
 <text x="354" y="96" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5018
+4518
 </text>
 <rect x="283" y="0" width="142" height="57" fill="white"/>
 <text x="354" y="39" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5022
+4522
 </text>
-<rect x="425" y="283" width="142" height="56" fill="#003264"/>
+<rect x="425" y="283" width="142" height="56" fill="#044678" fill-opacity="0.50" stroke-opacity="0.50"/>
 <text x="496" y="322" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5003
+4503
 </text>
-<rect x="425" y="226" width="142" height="57" fill="#003366"/>
+<rect x="425" y="226" width="142" height="57" fill="#043961" fill-opacity="0.50" stroke-opacity="0.50"/>
 <text x="496" y="265" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5007
+4507
 </text>
-<rect x="425" y="170" width="142" height="56" fill="#0066cc"/>
+<rect x="425" y="170" width="142" height="56" fill="#0872c3" fill-opacity="0.50" stroke-opacity="0.50"/>
 <text x="496" y="209" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5011
+4511
 </text>
-<rect x="425" y="113" width="142" height="57" fill="#3399ff"/>
+<rect x="425" y="113" width="142" height="57" fill="#3ba5f6" fill-opacity="0.50" stroke-opacity="0.50"/>
 <text x="496" y="152" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5015
+4515
 </text>
-<rect x="425" y="57" width="142" height="56" fill="#99ccff"/>
+<rect x="425" y="57" width="142" height="56" fill="#9dd2fa" fill-opacity="0.50" stroke-opacity="0.50"/>
 <text x="496" y="96" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5019
+4519
 </text>
 <rect x="425" y="0" width="142" height="57" fill="white"/>
 <text x="496" y="39" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
-5023
+4523
 </text></svg>

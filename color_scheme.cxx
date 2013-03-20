@@ -11,7 +11,7 @@
     Accented analogic (primary color, color A = Hue +angle , color B = Hue - angle, 
     complementary = Hue + 180degrees.
  */
-Int_t set_color_scheme(Float_t angle , Int_t rp , Int_t gp , Int_t bp, Int_t startIndex );
+Int_t set_color_scheme(Float_t angle = 30 , Int_t rp =255, Int_t gp =0 , Int_t bp=0, Int_t startIndex= 4000, Float_t alpha=1 );
 
 /** Creates some default color schemes. */
 void color_scheme();
@@ -36,10 +36,6 @@ Float_t RGBHue_to_RYBHue(Float_t Hrgb);
  */ 
 Float_t RYBHue_to_RGBHue(Float_t Hryb);
 
-
-/** Returns the number of colors created.
- */
-Int_t set_color_scheme(Float_t angle = 30, Int_t rp = 255 , Int_t gp = 0, Int_t bp = 0 , Int_t startIndex = 4000);
 
 //_____________________________________________________________________________________
 void color_scheme(){
@@ -135,10 +131,12 @@ void invert_RGB(Float_t R, Float_t G, Float_t B, Float_t& r_new, Float_t& g_new,
 }
 
 //_____________________________________________________________________________________
-Int_t set_color_scheme(Float_t angle , Int_t rp , Int_t gp , Int_t bp, Int_t startIndex )
+Int_t set_color_scheme(Float_t angle , Int_t rp , Int_t gp , Int_t bp, Int_t startIndex, Float_t alpha )
 {
    Float_t R,G,B,H,L,S;
 
+   bool setalpha = false;
+   if( alpha >0 && alpha < 1 ) setalpha = true; 
    R = (double)rp/255.0;
    G = (double)gp/255.0;
    B = (double)bp/255.0;
@@ -152,6 +150,7 @@ Int_t set_color_scheme(Float_t angle , Int_t rp , Int_t gp , Int_t bp, Int_t sta
    /// Primary Color
    TColor::RGB2HLS(R,G,B, H, L, S);
    create_color_HLS(ci,H,L,S); ci++;
+   if(setalpha) gROOT->GetColor(ci-1)->SetAlpha(alpha);
    //color = new TColor(ci, R,B,G, "primary color" ,0.5); 
 
    /// Secondary Color A
@@ -159,18 +158,21 @@ Int_t set_color_scheme(Float_t angle , Int_t rp , Int_t gp , Int_t bp, Int_t sta
    newAngle = (double)(((int)(Hryb+angle))%360);
    Hrgb = RYBHue_to_RGBHue(newAngle);
    create_color_HLS(ci,Hrgb,L,S); ci++;
+   if(setalpha) gROOT->GetColor(ci-1)->SetAlpha(alpha);
 
    /// Secondary Color B
    Hryb = RGBHue_to_RYBHue(H);
    newAngle = (double)(((int)(Hryb-angle+360.0))%360);
    Hrgb = RYBHue_to_RGBHue(newAngle);
    create_color_HLS(ci,Hrgb,L,S); ci++;
+   if(setalpha) gROOT->GetColor(ci-1)->SetAlpha(alpha);
 
    /// Complementary Color
    Hryb = RGBHue_to_RYBHue(H);
    newAngle = (double)(((int)(Hryb+180.0))%360);
    Hrgb = RYBHue_to_RGBHue(newAngle);
    create_color_HLS(ci,Hrgb,L,S); ci++;
+   if(setalpha) gROOT->GetColor(ci-1)->SetAlpha(alpha);
 
    for(int i = 0 ;i<4 ;i ++ ) {
       Double_t Dl = 0.2 + (double)i*0.2;
@@ -179,6 +181,7 @@ Int_t set_color_scheme(Float_t angle , Int_t rp , Int_t gp , Int_t bp, Int_t sta
          color->GetHLS(H,L,S);
          create_color_HLS(ci,H,Dl,S);
          ci++;
+         if(setalpha) gROOT->GetColor(ci-1)->SetAlpha(alpha);
 
       }
    }
