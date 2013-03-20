@@ -1,21 +1,47 @@
-/**  From http://ultrahigh.org/2007/08/20/making-pretty-root-color-palettes/
+/** Functions used in creating nice looking color schemes.
+    Color instead of using the normal RGB color wheel (where red, blue,
+    and green are separated by 120 degrees), color schemes look much 
+    better when using the RYB color wheel (where red and green are now
+    180 degrees apart). 
+    From http://ultrahigh.org/2007/08/20/making-pretty-root-color-palettes/
  */
 //_____________________________________________________________________________________
 
+/** Creates and sets the a new color scheme.   
+    Accented analogic (primary color, color A = Hue +angle , color B = Hue - angle, 
+    complementary = Hue + 180degrees.
+ */
+Int_t set_color_scheme(Float_t angle , Int_t rp , Int_t gp , Int_t bp, Int_t startIndex );
+
+/** Creates some default color schemes. */
 void color_scheme();
+
+/** Inverts the RGB color  by taking r_new = 1.0-R, etc... */
 void invert_RGB(Float_t R, Float_t G, Float_t B, Float_t& r_new, Float_t& g_new, Float_t& b_new);
+
 void create_color(Int_t num, Int_t r, Int_t g, Int_t b);
 void create_color_HLS(Int_t num, Float_t h, Float_t l, Float_t s); 
 void create_color_RGB(Int_t num, Float_t r, Float_t g, Float_t b);
+
+/** Draws colors starting at firstcolor.
+ */
 TCanvas* draw_colors(Int_t firstcolor = 4000);
+
+/** Converts the hue value in RGB to a hue value in RYB.
+    From  http://www.paintassistant.com/rybrgb.html 
+ */
 Float_t RGBHue_to_RYBHue(Float_t Hrgb);
+
+/** Converts the hue value in RYB to a hue value in RGB.
+ */ 
 Float_t RYBHue_to_RGBHue(Float_t Hryb);
-//_____________________________________________________________________________________
 
-/** Returns the number of colors created */
+
+/** Returns the number of colors created.
+ */
 Int_t set_color_scheme(Float_t angle = 30, Int_t rp = 255 , Int_t gp = 0, Int_t bp = 0 , Int_t startIndex = 4000);
-//_____________________________________________________________________________________
 
+//_____________________________________________________________________________________
 void color_scheme(){
    Int_t ncol = 0;
    ncol = set_color_scheme();
@@ -79,20 +105,20 @@ TCanvas * draw_colors(Int_t firstcolor)
    }
    return(c);
 }
-//_____________________________________________________________________________________
 
+//_____________________________________________________________________________________
 void create_color(Int_t num, Int_t r, Int_t g, Int_t b){
    TColor *color = new TColor(num, (float)r/255.0, (float)g/255.0,(float)b/255.0, Form("%d-%d-%d-ish",r,g,b) );//,1);
 }
-//_____________________________________________________________________________________
 
+//_____________________________________________________________________________________
 void create_color_RGB(Int_t num, Float_t r, Float_t g, Float_t b) {
 //    std::cout << " Creating color " << num << " with ";
 //    std::cout << " R=" << r << ", G=" << g << ", B=" << b << std::endl;
    TColor *color = new TColor(num, (float)r , (float)g,(float)b, Form("%d-%d-%d-ish",r,g,b) );//,0.9);
 }
-//_____________________________________________________________________________________
 
+//_____________________________________________________________________________________
 void create_color_HLS(Int_t num, Float_t h, Float_t l, Float_t s){
 //    std::cout << " Creating color " << num << " with ";
 //    std::cout << "Hue=" << h << ", Lightness=" << l << ", Saturation=" << s << std::endl;
@@ -100,18 +126,15 @@ void create_color_HLS(Int_t num, Float_t h, Float_t l, Float_t s){
    TColor::HLS2RGB(h,l,s,r,g,b);
    create_color_RGB(num,r,g,b);
 }
-//_____________________________________________________________________________________
 
-/** Inverts the RGB color  by taking r_new = 1.0-R, etc... */
+//_____________________________________________________________________________________
 void invert_RGB(Float_t R, Float_t G, Float_t B, Float_t& r_new, Float_t& g_new, Float_t& b_new) {
      r_new = 1.0 - R;
      g_new = 1.0 - G;
      b_new = 1.0 - B;
 }
-//_____________________________________________________________________________________
 
-/*! Accented analogic (primary color, color A = Hue +angle , color B = Hue - angle, complementary = Hue + 180degrees
- */ 
+//_____________________________________________________________________________________
 Int_t set_color_scheme(Float_t angle , Int_t rp , Int_t gp , Int_t bp, Int_t startIndex )
 {
    Float_t R,G,B,H,L,S;
@@ -163,7 +186,6 @@ Int_t set_color_scheme(Float_t angle , Int_t rp , Int_t gp , Int_t bp, Int_t sta
 }
 //_____________________________________________________________________________________
 
-/** From  http://www.paintassistant.com/rybrgb.html */
 Float_t RGBHue_to_RYBHue(Float_t Hrgb){
    if( !(Hrgb >= 0.0 && Hrgb<=360.0) ) Hrgb = (double)(((int)(Hrgb+5*360))%360);
    if(Hrgb >=0.0 && Hrgb < 120.0) return(Hrgb*180.0/120.0);
