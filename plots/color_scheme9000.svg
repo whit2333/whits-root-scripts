@@ -1,0 +1,107 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="567" height="339" viewBox="0 0 567 339" xmlns="http://www.w3.org/2000/svg">
+<title>
+plots/color_scheme9000.svg
+</title>
+<desc>
+Creator: ROOT Version 5.34/02
+CreationDate: Wed Mar 20 13:54:41 2013</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="567" height="339" fill="white"/>
+<rect x="0" y="283" width="142" height="56" fill="#281e32"/>
+<text x="71" y="322" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9000
+</text>
+<rect x="0" y="226" width="142" height="57" fill="#33263f"/>
+<text x="71" y="265" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9004
+</text>
+<rect x="0" y="170" width="142" height="56" fill="#664c7f"/>
+<text x="71" y="209" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9008
+</text>
+<rect x="0" y="113" width="142" height="57" fill="#997fb2"/>
+<text x="71" y="152" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9012
+</text>
+<rect x="0" y="57" width="142" height="56" fill="#ccbfd8"/>
+<text x="71" y="96" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9016
+</text>
+<rect x="0" y="0" width="142" height="57" fill="white"/>
+<text x="71" y="39" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9020
+</text>
+<rect x="142" y="283" width="141" height="56" fill="#321e32"/>
+<text x="213" y="322" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9001
+</text>
+<rect x="142" y="226" width="141" height="57" fill="#3f263f"/>
+<text x="213" y="265" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9005
+</text>
+<rect x="142" y="170" width="141" height="56" fill="#7f4c7f"/>
+<text x="213" y="209" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9009
+</text>
+<rect x="142" y="113" width="141" height="57" fill="#b27fb2"/>
+<text x="213" y="152" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9013
+</text>
+<rect x="142" y="57" width="141" height="56" fill="#d8bfd8"/>
+<text x="213" y="96" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9017
+</text>
+<rect x="142" y="0" width="141" height="57" fill="white"/>
+<text x="213" y="39" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9021
+</text>
+<rect x="283" y="283" width="142" height="56" fill="#1e1e32"/>
+<text x="354" y="322" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9002
+</text>
+<rect x="283" y="226" width="142" height="57" fill="#26263f"/>
+<text x="354" y="265" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9006
+</text>
+<rect x="283" y="170" width="142" height="56" fill="#4c4c7f"/>
+<text x="354" y="209" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9010
+</text>
+<rect x="283" y="113" width="142" height="57" fill="#7f7fb2"/>
+<text x="354" y="152" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9014
+</text>
+<rect x="283" y="57" width="142" height="56" fill="#bfbfd8"/>
+<text x="354" y="96" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9018
+</text>
+<rect x="283" y="0" width="142" height="57" fill="white"/>
+<text x="354" y="39" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9022
+</text>
+<rect x="425" y="283" width="142" height="56" fill="#32321e"/>
+<text x="496" y="322" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9003
+</text>
+<rect x="425" y="226" width="142" height="57" fill="#3f3f26"/>
+<text x="496" y="265" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9007
+</text>
+<rect x="425" y="170" width="142" height="56" fill="#7f7f4c"/>
+<text x="496" y="209" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9011
+</text>
+<rect x="425" y="113" width="142" height="57" fill="#b2b27f"/>
+<text x="496" y="152" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9015
+</text>
+<rect x="425" y="57" width="142" height="56" fill="#d8d8bf"/>
+<text x="496" y="96" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9019
+</text>
+<rect x="425" y="0" width="142" height="57" fill="white"/>
+<text x="496" y="39" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+9023
+</text></svg>

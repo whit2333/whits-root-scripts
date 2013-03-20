@@ -1,0 +1,107 @@
+<?xml version="1.0" standalone="no"?>
+<svg width="567" height="339" viewBox="0 0 567 339" xmlns="http://www.w3.org/2000/svg">
+<title>
+plots/color_scheme8000.svg
+</title>
+<desc>
+Creator: ROOT Version 5.34/02
+CreationDate: Wed Mar 20 13:54:40 2013</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="567" height="339" fill="white"/>
+<rect x="0" y="283" width="142" height="56" fill="#001e32"/>
+<text x="71" y="322" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8000
+</text>
+<rect x="0" y="226" width="142" height="57" fill="#003d66"/>
+<text x="71" y="265" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8004
+</text>
+<rect x="0" y="170" width="142" height="56" fill="#007acc"/>
+<text x="71" y="209" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8008
+</text>
+<rect x="0" y="113" width="142" height="57" fill="#33adff"/>
+<text x="71" y="152" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8012
+</text>
+<rect x="0" y="57" width="142" height="56" fill="#99d6ff"/>
+<text x="71" y="96" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8016
+</text>
+<rect x="0" y="0" width="142" height="57" fill="white"/>
+<text x="71" y="39" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8020
+</text>
+<rect x="142" y="283" width="141" height="56" fill="#230032"/>
+<text x="213" y="322" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8001
+</text>
+<rect x="142" y="226" width="141" height="57" fill="#470066"/>
+<text x="213" y="265" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8005
+</text>
+<rect x="142" y="170" width="141" height="56" fill="#8e00cc"/>
+<text x="213" y="209" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8009
+</text>
+<rect x="142" y="113" width="141" height="57" fill="#c133ff"/>
+<text x="213" y="152" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8013
+</text>
+<rect x="142" y="57" width="141" height="56" fill="#e099ff"/>
+<text x="213" y="96" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8017
+</text>
+<rect x="142" y="0" width="141" height="57" fill="white"/>
+<text x="213" y="39" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8021
+</text>
+<rect x="283" y="283" width="142" height="56" fill="#0a3200"/>
+<text x="354" y="322" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8002
+</text>
+<rect x="283" y="226" width="142" height="57" fill="#146600"/>
+<text x="354" y="265" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8006
+</text>
+<rect x="283" y="170" width="142" height="56" fill="#28cc00"/>
+<text x="354" y="209" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8010
+</text>
+<rect x="283" y="113" width="142" height="57" fill="#5bff33"/>
+<text x="354" y="152" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8014
+</text>
+<rect x="283" y="57" width="142" height="56" fill="#adff99"/>
+<text x="354" y="96" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8018
+</text>
+<rect x="283" y="0" width="142" height="57" fill="white"/>
+<text x="354" y="39" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8022
+</text>
+<rect x="425" y="283" width="142" height="56" fill="#321700"/>
+<text x="496" y="322" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8003
+</text>
+<rect x="425" y="226" width="142" height="57" fill="#662f00"/>
+<text x="496" y="265" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8007
+</text>
+<rect x="425" y="170" width="142" height="56" fill="#cc5f00"/>
+<text x="496" y="209" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8011
+</text>
+<rect x="425" y="113" width="142" height="57" fill="#ff9233"/>
+<text x="496" y="152" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8015
+</text>
+<rect x="425" y="57" width="142" height="56" fill="#ffc899"/>
+<text x="496" y="96" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8019
+</text>
+<rect x="425" y="0" width="142" height="57" fill="white"/>
+<text x="496" y="39" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+8023
+</text></svg>
