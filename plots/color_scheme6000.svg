@@ -1,107 +1,107 @@
 <?xml version="1.0" standalone="no"?>
-<svg width="567" height="339" viewBox="0 0 567 339" xmlns="http://www.w3.org/2000/svg">
+<svg width="567" height="336" viewBox="0 0 567 336" xmlns="http://www.w3.org/2000/svg">
 <title>
 plots/color_scheme6000.svg
 </title>
 <desc>
-Creator: ROOT Version 5.34/02
-CreationDate: Wed Mar 20 14:09:51 2013</desc>
+Creator: ROOT Version 5.34/13
+CreationDate: Fri Dec 13 10:49:20 2013</desc>
 <defs>
 </defs>
-<rect x="0" y="0" width="567" height="339" fill="white"/>
-<rect x="0" y="283" width="142" height="56" fill="#370064"/>
-<text x="71" y="322" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+<rect x="0" y="0" width="567" height="336" fill="white"/>
+<rect x="0" y="280" width="142" height="56" fill="#370064"/>
+<text x="71" y="319" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6000
 </text>
-<rect x="0" y="226" width="142" height="57" fill="#380066"/>
-<text x="71" y="265" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+<rect x="0" y="224" width="142" height="56" fill="#380066"/>
+<text x="71" y="263" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6004
 </text>
-<rect x="0" y="170" width="142" height="56" fill="#7000cc"/>
-<text x="71" y="209" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+<rect x="0" y="168" width="142" height="56" fill="#7000cc"/>
+<text x="71" y="207" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6008
 </text>
-<rect x="0" y="113" width="142" height="57" fill="#a333ff"/>
-<text x="71" y="152" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+<rect x="0" y="112" width="142" height="56" fill="#a333ff"/>
+<text x="71" y="151" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6012
 </text>
-<rect x="0" y="57" width="142" height="56" fill="#d199ff"/>
-<text x="71" y="96" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+<rect x="0" y="56" width="142" height="56" fill="#d199ff"/>
+<text x="71" y="95" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6016
 </text>
-<rect x="0" y="0" width="142" height="57" fill="white"/>
+<rect x="0" y="0" width="142" height="56" fill="white"/>
 <text x="71" y="39" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6020
 </text>
-<rect x="142" y="283" width="141" height="56" fill="#640046"/>
-<text x="213" y="322" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+<rect x="142" y="280" width="141" height="56" fill="#640046"/>
+<text x="213" y="319" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6001
 </text>
-<rect x="142" y="226" width="141" height="57" fill="#660047"/>
-<text x="213" y="265" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+<rect x="142" y="224" width="141" height="56" fill="#660047"/>
+<text x="213" y="263" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6005
 </text>
-<rect x="142" y="170" width="141" height="56" fill="#cc008e"/>
-<text x="213" y="209" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+<rect x="142" y="168" width="141" height="56" fill="#cc008e"/>
+<text x="213" y="207" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6009
 </text>
-<rect x="142" y="113" width="141" height="57" fill="#ff33c1"/>
-<text x="213" y="152" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+<rect x="142" y="112" width="141" height="56" fill="#ff33c1"/>
+<text x="213" y="151" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6013
 </text>
-<rect x="142" y="57" width="141" height="56" fill="#ff99e0"/>
-<text x="213" y="96" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+<rect x="142" y="56" width="141" height="56" fill="#ff99e0"/>
+<text x="213" y="95" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6017
 </text>
-<rect x="142" y="0" width="141" height="57" fill="white"/>
+<rect x="142" y="0" width="141" height="56" fill="white"/>
 <text x="213" y="39" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6021
 </text>
-<rect x="283" y="283" width="142" height="56" fill="#002864"/>
-<text x="354" y="322" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+<rect x="283" y="280" width="142" height="56" fill="#002864"/>
+<text x="354" y="319" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6002
 </text>
-<rect x="283" y="226" width="142" height="57" fill="#002866"/>
-<text x="354" y="265" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+<rect x="283" y="224" width="142" height="56" fill="#002866"/>
+<text x="354" y="263" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6006
 </text>
-<rect x="283" y="170" width="142" height="56" fill="#0051cc"/>
-<text x="354" y="209" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+<rect x="283" y="168" width="142" height="56" fill="#0051cc"/>
+<text x="354" y="207" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6010
 </text>
-<rect x="283" y="113" width="142" height="57" fill="#3384ff"/>
-<text x="354" y="152" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+<rect x="283" y="112" width="142" height="56" fill="#3384ff"/>
+<text x="354" y="151" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6014
 </text>
-<rect x="283" y="57" width="142" height="56" fill="#99c1ff"/>
-<text x="354" y="96" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+<rect x="283" y="56" width="142" height="56" fill="#99c1ff"/>
+<text x="354" y="95" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6018
 </text>
-<rect x="283" y="0" width="142" height="57" fill="white"/>
+<rect x="283" y="0" width="142" height="56" fill="white"/>
 <text x="354" y="39" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6022
 </text>
-<rect x="425" y="283" width="142" height="56" fill="#606400"/>
-<text x="496" y="322" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+<rect x="425" y="280" width="142" height="56" fill="#606400"/>
+<text x="496" y="319" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6003
 </text>
-<rect x="425" y="226" width="142" height="57" fill="#626600"/>
-<text x="496" y="265" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+<rect x="425" y="224" width="142" height="56" fill="#626600"/>
+<text x="496" y="263" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6007
 </text>
-<rect x="425" y="170" width="142" height="56" fill="#c5cc00"/>
-<text x="496" y="209" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+<rect x="425" y="168" width="142" height="56" fill="#c5cc00"/>
+<text x="496" y="207" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6011
 </text>
-<rect x="425" y="113" width="142" height="57" fill="#f8ff33"/>
-<text x="496" y="152" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+<rect x="425" y="112" width="142" height="56" fill="#f8ff33"/>
+<text x="496" y="151" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6015
 </text>
-<rect x="425" y="57" width="142" height="56" fill="#fbff99"/>
-<text x="496" y="96" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
+<rect x="425" y="56" width="142" height="56" fill="#fbff99"/>
+<text x="496" y="95" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6019
 </text>
-<rect x="425" y="0" width="142" height="57" fill="white"/>
+<rect x="425" y="0" width="142" height="56" fill="white"/>
 <text x="496" y="39" text-anchor="middle" fill="black" font-size="22" font-family="Helvetica" font-weight="bold">
 6023
 </text></svg>
