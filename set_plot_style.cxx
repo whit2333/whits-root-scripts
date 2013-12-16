@@ -24,15 +24,15 @@ void add_new_colors()
    Int_t ci = 2000;
    TColor *color = new TColor(ci, 255.0/255.0, 53.0/255.0, 0.0, "red-ish",0.9); // alpha = 0.5
    ci++;
-   TColor *color = new TColor(ci, 9.0/255.0, 105.0/255.0, 162.0/255.0, "blue-ish", 0.9);
+   color = new TColor(ci, 9.0/255.0, 105.0/255.0, 162.0/255.0, "blue-ish", 0.9);
    ci++;
-   TColor *color = new TColor(ci, 255.0/255.0, 140.0/255.0, 0.0, "orange-ish",0.9); 
+   color = new TColor(ci, 255.0/255.0, 140.0/255.0, 0.0, "orange-ish",0.9); 
    ci++;
-   TColor *color = new TColor(ci, 0.0, 182.0/255.0, 79.0/255.0 , "green-ish",0.9); 
+   color = new TColor(ci, 0.0, 182.0/255.0, 79.0/255.0 , "green-ish",0.9); 
    ci++;
-   TColor *color = new TColor(ci, 0.1, 0.1, 0.1, "",0.9);
+   color = new TColor(ci, 0.1, 0.1, 0.1, "",0.9);
    ci++;
-   TColor *color = new TColor(ci, 0.1, 0.1, 0.1, "",0.9);
+   color = new TColor(ci, 0.1, 0.1, 0.1, "",0.9);
    ci++;
 }
 //_____________________________________________________________________________________
